@@ -36,10 +36,20 @@ ___
 
 - This repository contains a **sanitized and illustrative version** of the analytical framework. All data, parameters, and outputs that could be tied to a specific application or case have been removed or replaced with placeholders or synthetic examples.
 
-- A private repository containing full datasets, data-cleaning code, and intermediate analysis exists and **can be shared upon request** for methodological clarification.
+- A private repository containing fully parsed datasets, and intermediate analysis exists and **can be shared upon request** for methodological clarification.
 ___
 ## Sources - 
 
+**Data**
 ChatGPT Log - ([Here](https://chatgpt.com/share/696e5667-3d9c-8011-aa5d-d9cdc174a0a7))\
-Github Repository - ([Here](https://github.com/Mike-Dirksen/2026_Case_Study))
+Github Repository - ([Here](https://github.com/Mike-Dirksen/2026_Case_Study))\
+U.S. EPA (U.S. Waste Aggregates in the US by Material/Product) - ([Here](https://catalog.data.gov/dataset/sustainable-materials-management-smm-materials-and-waste-management-in-the-united-states-key-fa12))\
+U.S. Census (Population Distribution by Income) - ([Here](https://data.census.gov/table/ACSDP5Y2023.DP03?q=Income+Distribution&d=ACS+5-Year+Estimates+Data+Profiles))\
+U.S Beureau of Labor Statistics (Expenditure by Product) - ([Here](https://www.bls.gov/cex/tables/calendar-year/mean-item-share-average-standard-error.htm))
 
+**Foundational Research**
+'Managing Municipal Solid Waste with Unit-Based Pricing' (Ju-Chin Huang et al.) - ([Here](https://le.uwpress.org/content/87/4/645.short))\
+'Estimating the Impact of the Pay-As-You-Throw Program on
+Waste Reduction' (Tsuyoshi Goto et al.) - ([Here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5411144))\
+'DEMAND FOR GARBAGE AND RECYCLING COLLECTION WITH PPB' (Don Fullerton
+ & Thomas C. Kinnaman) - ([Here](https://www.nber.org/papers/w4670))
