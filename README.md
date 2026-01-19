@@ -1,4 +1,4 @@
-# 2026_Case_Study
+# Household Tax Incidence Model
 This repository contains a general modeling framework for analyzing household-level tax incidence and welfare effects under a per-unit taxation scheme. The framework is policy-agnostic and intended to demonstrate analytical structure rather than produce any case-specific conclusions.
 ___
 ## Project Assumptions - 
