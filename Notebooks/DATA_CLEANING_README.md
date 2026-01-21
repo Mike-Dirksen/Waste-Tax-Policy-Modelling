@@ -111,7 +111,7 @@ structural breaks or incomparable reporting regimes.
 
 Typical operations include:
 ```python
-df = df[df["year"] >= 2015]
+df = df[df["year"] >= 2018]
 ```
 
 This ensures compatibility with later regression and extrapolation steps.
@@ -126,8 +126,7 @@ To support regression analysis, the notebook constructs:
 - the dependent variable vector (`y`) for modeling,
 - log-transformed versions of waste data for exponential fits.
 
-These transformations are done *after* cleaning to avoid contaminating the
-raw data layer.
+These transformations are done *after* cleaning, and used solely for the purposes of plotting to avoid contaminating the raw data.
 
 ---
 
@@ -152,22 +151,3 @@ A few guiding principles behind this notebook:
 - **Minimal manual intervention:** automated cleaning whenever possible
 - **Transparency:** all assumptions visible in code or comments
 - **Reproducibility:** rerunning the notebook reproduces the same clean output
-
----
-
-## 11. Known Issues & Limitations
-
-- Source Excel files may change formatting across years
-- Some warning messages from `openpyxl` are benign and ignored
-- Missing years are not interpolated during cleaning
-- Any extrapolation is deferred to the analysis stage
-
----
-
-## 12. Next Steps
-
-Future updates may include:
-- adding explicit CSV exports for each cleaned dataset,
-- extending the notebook to additional income or expenditure datasets,
-- adding a short data dictionary describing each output column.
-
